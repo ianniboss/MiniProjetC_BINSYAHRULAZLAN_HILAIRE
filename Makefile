@@ -22,7 +22,7 @@ $(EXEC): $(OBJS)
 -include $(DEPS)
 
 clean:
-	rm -f *.o *.d
+	rm -f *.o *.d $(EXEC)
 
 fclean: clean
 	rm -f $(EXEC)
