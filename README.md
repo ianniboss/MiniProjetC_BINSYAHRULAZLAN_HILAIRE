@@ -43,8 +43,8 @@ s'il contient des caracteres speciaux ou non alphanumeriques, puis de chiffrer s
 ### void VigenereDechiffre(char *text, char *key)
 - **Description** : Dechiffre le message qui avait précedemment été chiffré avec le chiffrement Vigenere
 - **Parametres d'entree** : 'char *text' - texte chiffré
-                          : 'char *key' -  la Cle de dechiffrement (decalage)
-- **Sorties**: Aucun retour, mais modifie et affiche le message chiffré
+                          : 'char *key' - la clé de dechiffrement (decalage)
+- **Sorties** : Aucun retour, mais modifie et affiche le message chiffré
 - **Cas d'erreur** : Aucun
 
 ### Cas d'erreur 
