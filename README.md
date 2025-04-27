@@ -33,6 +33,13 @@ s'il contient des caracteres speciaux ou non alphanumeriques, puis de chiffrer s
 - **Sorties** : Aucun retour, mais modifie et affiche le message chiffré
 - **Cas d'erreur** : Aucun
 
+### void CesarDechiffre(char *text, int *cleCesar)
+- **Description** : Dechiffre le message qui avait précedemment été chiffré avec le chiffrement par Cesar
+- **Parametres d'entree** : 'char *text' - texte qui à été chiffré
+                          : 'int cleCesar' - la clé de dechiffrement (decalage)
+- **Sorties** : Aucun retour, mais modifie et affiche le message chiffré
+- **Cas d'erreur** : Aucun
+- 
 ### void Vigenere(char *message, char cleVigenere)
 - **Description** : Chiffre le message en utilisant le chiffrement de vigenere
 - **Parametres d'entree** : 'char *message' - Message à chiffrer
