@@ -47,6 +47,14 @@ s'il contient des caracteres speciaux ou non alphanumeriques, puis de chiffrer s
 - **Sorties** : Aucun retour, mais modifie et affiche le message chiffré
 - **Cas d'erreur** : Aucun
 
+### void CesarDechiffre(char *text, char *key)
+- **Description** : Dechiffre le message qui avait précedemment été chiffré avec le chiffrement par Cesar
+- **Parametres d'entree** : 'char *text' - texte qui à été chiffré
+                          : 'char *key' - la clé de dechiffrement (decalage)
+- **Sorties** : Aucun retour, mais modifie et affiche le message chiffré
+- **Cas d'erreur** : Aucun
+
+
 ### Cas d'erreur 
 - **Entree l'utilisateur** : Le programme peut afficher un message d'erreur si l'utilisateur fait un choix invalide pour la methode de chiffrement
 - **Caracteres speciaux** : Le programme informe l'utilisateur si des caracteres speciaux sont presents dans le texte
