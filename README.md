@@ -34,10 +34,17 @@ s'il contient des caracteres speciaux ou non alphanumeriques, puis de chiffrer s
 - **Cas d'erreur** : Aucun
 
 ### void Vigenere(char *message, char cleVigenere)
-- **Description** : Chiffre le message en utilisant le chiffrement de César
+- **Description** : Chiffre le message en utilisant le chiffrement de vigenere
 - **Parametres d'entree** : 'char *message' - Message à chiffrer
                           : 'char cleVigenere' - Clé de chiffrement (decalage)
 - **Sorties** : Aucun retour, mais modifie et affiche le message chiffré
+- **Cas d'erreur** : Aucun
+
+### void VigenereDechiffre()
+-**Description**: Dechiffre le message qui avait précedemment été chiffré avec le chiffrement Vigenere
+--**Parametres d'entree** : 'char *text' - texte chiffré
+                          : 'char *key' -  la Cle de dechiffrement (decalage)
+-- **Sorties**: Aucun retour, mais modifie et affiche le message chiffré
 - **Cas d'erreur** : Aucun
 
 ### Cas d'erreur 
