@@ -47,10 +47,10 @@ s'il contient des caracteres speciaux ou non alphanumeriques, puis de chiffrer s
 - **Sorties** : Aucun retour, mais modifie et affiche le message chiffré
 - **Cas d'erreur** : Aucun
 
-### void CesarDechiffre(char *text, char *key)
+### void CesarDechiffre(char *text, int *cleCesar)
 - **Description** : Dechiffre le message qui avait précedemment été chiffré avec le chiffrement par Cesar
 - **Parametres d'entree** : 'char *text' - texte qui à été chiffré
-                          : 'char *key' - la clé de dechiffrement (decalage)
+                          : 'int cleCesar' - la clé de dechiffrement (decalage)
 - **Sorties** : Aucun retour, mais modifie et affiche le message chiffré
 - **Cas d'erreur** : Aucun
 
