@@ -33,7 +33,7 @@ s'il contient des caracteres speciaux ou non alphanumeriques, puis de chiffrer s
 - **Sorties** : Aucun retour, mais modifie et affiche le message chiffré
 - **Cas d'erreur** : Aucun
 
-### void CesarDechiffre(char *text, int *cleCesar)
+### void CesarDechiffre(char *texte, int *cleCesar)
 - **Description** : Dechiffre le message qui avait précedemment été chiffré avec le chiffrement par Cesar
 - **Parametres d'entree** : 'char *text' - texte qui à été chiffré
                           : 'int cleCesar' - la clé de dechiffrement (decalage)
@@ -47,16 +47,16 @@ s'il contient des caracteres speciaux ou non alphanumeriques, puis de chiffrer s
 - **Sorties** : Aucun retour, mais modifie et affiche le message chiffré
 - **Cas d'erreur** : Aucun
 
-### void VigenereDechiffre(char *text, char *key)
+### void VigenereDechiffre(char *texte, char *key)
 - **Description** : Dechiffre le message qui avait précedemment été chiffré avec le chiffrement Vigenere
 - **Parametres d'entree** : 'char *text' - texte chiffré
                           : 'char *key' - la clé de dechiffrement (decalage)
 - **Sorties** : Aucun retour, mais modifie et affiche le message chiffré
 - **Cas d'erreur** : Aucun
 
-### void CesarDechiffre(char *text, int *cleCesar)
+### void CesarDechiffre(char *texte, int *cleCesar)
 - **Description** : Dechiffre le message qui avait précedemment été chiffré avec le chiffrement par Cesar
-- **Parametres d'entree** : 'char *text' - texte qui à été chiffré
+- **Parametres d'entree** : 'char *texte' - texte qui à été chiffré
                           : 'int cleCesar' - la clé de dechiffrement (decalage)
 - **Sorties** : Aucun retour, mais modifie et affiche le message chiffré
 - **Cas d'erreur** : Aucun
